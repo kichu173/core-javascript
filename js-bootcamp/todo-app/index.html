@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-app</title>
+</head>
+<body>
+    <h1>Todo-App</h1>
+    <label>
+        Filter todo: <input type="text" id="filter-todo" placeholder="Filter your todo">
+    </label>
+    <label>
+        <input type="checkbox" id="todo-checkbox"> Hide completed
+    </label>
+    <div id="todo-list"></div>
+    <form id="add-todo">
+        <input type="text" placholder="Add Todo" name="newTodo">
+        <button>Add Todo</button>
+    </form>
+    <!-- Third party library for generating universal unique identifier(uuid v4) from [links.mead.io/uuidv4] -->
+    <script src="unique-identifier.js"></script>
+    <!--html scans lines from top to bottom -->
+    <script src="todo-functions.js"></script>
+    <script src="todo-app.js"></script>
+</body>
+</html>
