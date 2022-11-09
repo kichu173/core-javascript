@@ -53,7 +53,7 @@ const minifiedRecords = characters.map(function(character) {
         height: character.height
     }
 })
-console.log(minifiedRecords);
+console.log(minifiedRecords); // [{ name: 'Luke Skywalker', height: 172 },{ name: 'Darth Vader', height: 202 },{ name: 'Leia Organa', height: 150 },{ name: 'Anakin Skywalker', height: 188 }]
 //4. Get array of all first names
 const firstNames = characters.map(function(character) {
     return character.name.split(" ")[0];
