@@ -38,3 +38,22 @@ function printTodo({text, completed}) {// destructuring obj in function paramete
 }
 
 printTodo(todo);
+
+const complexArrOfObj = [
+    {
+        name: 'Kiran',
+        complexAge: 10
+    },
+    {
+        name: 'Kumar',
+        complexAge: 10
+    },
+    {
+        name: 'K',
+        complexAge: 10
+    }
+]
+
+const [,,{complexAge}] = complexArrOfObj;
+
+console.log('age value in 3rd object of arr ', complexAge);
