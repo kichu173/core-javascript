@@ -25,6 +25,7 @@ console.log(others); // we can also use rest opertor to grab other values/ prope
 
 const age = [65, 0, 13, 21];
 
+// index is important for array destructuring
 const[firstAge, secondAge, , lastAge] = age;// doing nothing for the thirdItem in array destrucutre
 
 console.log(firstAge); // 65
